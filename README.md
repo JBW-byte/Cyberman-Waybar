@@ -5,3 +5,5 @@ waybar config and style for hyprland, Rofi and alacritty needed, or rename all i
 place the config.jsonc and style.css in: .config/waybar/
 
 includes custom Rofi button, Update Button, taskbar and power button(logout etc). workspaces show in hyprland(havnt got screenshot working yet :))
+
+my .config files if needed https://github.com/JBW-byte/hyprland-.config/tree/main/.config
