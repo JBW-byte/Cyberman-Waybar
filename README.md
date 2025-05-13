@@ -2,4 +2,4 @@
 
 waybar config and style for hyprland, Rofi and alacritty needed, 
 
-place the config.json and style.ss in: .config/waybar/
+place the config.jsonc and style.css in: .config/waybar/
