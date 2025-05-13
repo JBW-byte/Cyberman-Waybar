@@ -3,7 +3,7 @@ border: none;
 border-radius: 0;
 font-family: "JetBrains Mono";
 font-weight: bold;
-font-size: 20px;
+font-size: 18px;
 min-height: 0;
 }
 
@@ -48,7 +48,7 @@ color: #11111b;
 border-radius: 5px;
 }
 
-#custom-os_button,
+#custom-rofi_button,
 #memory,
 #cpu,
 #custom-updates,
@@ -79,8 +79,8 @@ border: 1px solid #181825;
 }
 
 #custom-power {
-font-size: 24px;
-color: #fab387;
+font-size: 20px;
+color: #f7768e;
 border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
 border-right: 0px;
@@ -93,8 +93,8 @@ margin-left: 10px;
 border-right: 0px;
 }
 
-#custom-os_button {
-font-size: 24px;
+#custom-rofi_button {
+font-size: 20px;
 color: #fab387;
 border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
@@ -109,16 +109,16 @@ border-right: 0px;
 }
 
 #cpu {
-color: #fab387;
+color: #9ece6a;
 border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
 border-right: 0px;
 }
 
 #memory {
-color: #fab387;
-border-radius: 10px 0px 0px 10px;
-margin-left: 10px;
+color: #9ece6a;
+/*border-radius: 10px 0px 0px 10px; */
+/*margin-left: 10px; */
 border-right: 0px;
 }
 
@@ -185,7 +185,8 @@ margin-right: 10px
 
 #pulseaudio {
 color: #89b4fa;
-border-left: 0px;
+border-radius: 10px 0px 0px 10px;
+margin-left: 10px;
 border-right: 0px;
 }
 
