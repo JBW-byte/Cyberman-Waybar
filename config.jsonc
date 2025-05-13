@@ -2,40 +2,32 @@
     //"layer": "top",
     "position": "top",
     "height": 36,
-    "spacing": 1,
+    "spacing": 2,
     "margin": 0,
-    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
+    "modules-left": ["custom/os_button", "hyprland/workspaces", "wlr/taskbar"],
         "modules-center": ["custom/playerctl"],                                                                           //battery   //disk     // uptime      //updates        // systray
-    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "tray", "clock"],
+    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "tray", "clock", "custom/power"],
 
 
-    "hyprland/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
-        "format": "{name}",
-        "format-icons": {
-            "1": "󰖟",
-            "2": "",
-            "3": "",
-            "4": "󰭹",
-            "5": "󰕧",
-            "6": "",
-            "7": "",
-            "8": "󰣇",
-            "9": "",
-            "10": ""
+"hyprland/workspaces": {
+            "format": "{icon}",
+            "format-icons": {
+                "active": "",
+                "default": "",
+                "empty": "O"
+            },
+            "persistent-workspaces": {
+                "*": [ 1,2,3,4 ]
+            }
         },
-        "persistent_workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": []
-        }
-    },
-
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
+    },
+
+    "custom/os_button": {
+        "format": "",
+        "on-click": "rofi -show drun",
+        "tooltip": false
     },
 
     "custom/playerctl": {
@@ -201,5 +193,11 @@
     "tray": {
         "icon-size": 18,
         "spacing": 5
-    }
+    },
+
+    "custom/power": {
+        "format": " ⏻ ",
+        "tooltip": false,
+        "on-click": "wlogout --protocol layer-shell"
+    },
 }
