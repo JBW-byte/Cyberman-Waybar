@@ -1,5 +1,5 @@
 {
-    //"layer": "top",
+    "layer": "top",
     "position": "top",
     "height": 36,
     "spacing": 2,
@@ -8,24 +8,27 @@
         "modules-center": ["custom/playerctl"],                                                                           //battery   //disk     // uptime      //updates        // systray
     "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "tray", "clock", "custom/power"],
 
-
-"hyprland/workspaces": {
-            "format": "{icon}",
+    "hyprland/workspaces": {
+            "all-outputs": true,
+            "active-only": false,
+            "format": "{name}",
             "format-icons": {
-                "active": "",
-                "default": "",
-                "empty": "O"
-            },
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		//"active": "",
+		//"default": ""
+	},
+
             "persistent-workspaces": {
-                "*": [ 1,2,3,4 ]
-            }
+		"*": [ 1,2,3,4 ], // 1-4 on every monitor
+		//"HDMI-A-1": [ 1 ] // but only workspace 1 on HDMI-A-1
+	}
         },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
 
     "custom/os_button": {
-        "format": "",
+        "format": "",
         "on-click": "rofi -show drun",
         "tooltip": false
     },
@@ -52,14 +55,6 @@
         "exec": "curl 'https://wttr.in/?format=1'",
         "interval": 3600,
         "format": "{}",
-        "tooltip": true
-    },
-
-    "custom/quote": {
-        "format": "󰚛 {}",
-        "interval": 3600,
-        "exec": "fortune -s",
-        "on-click": "fortune | yad --text-info --width=400 --height=200 --title='Fortune'",
         "tooltip": true
     },
 
@@ -104,7 +99,7 @@
                 "today":      "<span color='#dbbc7f'><b><u>{}</u></b></span>"
             }
         },
-        "actions": {
+    "actions": {
             "on-click-right": "mode",
             "on-click-forward": "tz_up",
             "on-click-backward": "tz_down",
@@ -117,20 +112,20 @@
         "format": "󰘚 {usage}%",
         "tooltip": true,
         "interval": 1,
-        "on-click": "kitty -e htop"
+        "on-click": "alacritty -e htop"
     },
 
     "memory": {
         "format": "󰍛 {}%",
         "interval": 1,
-        "on-click": "kitty -e htop"
+        "on-click": "alacritty -e htop"
     },
 
     "temperature": {
         "critical-threshold": 80,
         "format": "{icon} {temperatureC}°C",
         "format-icons": ["󱃃", "󰔏", "󱃂"],
-        "on-click": "kitty -e s-tui"
+        "on-click": "alacritty -e s-tui"
     },
 
     "battery": {
@@ -153,7 +148,7 @@
         "format-disconnected": "󰖪 Disconnected",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "tooltip-format": "{ifname}: {ipaddr}",
-        "on-click": "kitty -e nmtui"
+        "on-click": "alacritty -e nmtui"
     },
 
     "pulseaudio": {
@@ -187,11 +182,11 @@
         "interval": 30,
         "format": "󰋊 {percentage_used}%",
         "path": "/",
-        "on-click": "kitty -e gdu /"
+        "on-click": "alacritty -e gdu /"
     },
 
     "tray": {
-        "icon-size": 18,
+        "icon-size": 20,
         "spacing": 5
     },
 
