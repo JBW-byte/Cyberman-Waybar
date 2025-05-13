@@ -9,6 +9,6 @@ includes custom Rofi button, Update Button, taskbar and power button(logout etc)
 
 
 Dependances:
-sudo pacman -S ttf-fira-code ttf-font-awesome wlogout hyprpolkitagent rofi-wayland --needed
+sudo pacman -S ttf-jetbrains-mono ttf-fira-code ttf-font-awesome wlogout hyprpolkitagent rofi-wayland --needed
 
 my .config files if needed https://github.com/JBW-byte/hyprland-.config/tree/main/.config
