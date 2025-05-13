@@ -45,8 +45,6 @@
 @define-color white #ffffff;
 @define-color orange #ff8952;
 
-
-
 /* Gruvbox Dark Colors */
 @define-color background #282828;
 @define-color background-light #3c3836;
@@ -124,6 +122,15 @@ background-color: transparent;
 }
 
 /* Workspaces styling */
+
+#custom-os_button {
+font-family: "JetBrainsMono Nerd Font";
+font-size: 24px;
+padding-left: 12px;
+padding-right: 20px;
+transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 #workspaces button {
 padding: 0 10px;
 background-color: transparent;
@@ -266,6 +273,7 @@ border-bottom-color: @uptime-color;
 
 #custom-updates {
 color: @updates-color;
+padding: 0 10px;
 border-bottom-color: @updates-color;
 }
 
