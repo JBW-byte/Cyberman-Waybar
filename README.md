@@ -3,3 +3,5 @@
 waybar config and style for hyprland, Rofi and alacritty needed, or rename all instances of alacritty to your terminal of choice in config.jsonc
 
 place the config.jsonc and style.css in: .config/waybar/
+
+custom update button and power button
