@@ -1,4 +1,4 @@
-![Alt text](https://github.com/JBW-byte/hyprland-waybar/blob/main/Screenshot_20250513_153002.png "Optional title")
+![Alt text](https://github.com/JBW-byte/hyprland-waybar/blob/main/Screenshot_20250513_153002.png "Preview")
 
 waybar config and style for hyprland, Rofi and alacritty needed, 
 
