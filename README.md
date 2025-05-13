@@ -1,6 +1,4 @@
-![Alt text]([http://full/path/to/img.jpg](https://github.com/JBW-byte/hyprland-waybar/blob/main/Screenshot_20250513_153002.png) "Optional title")
-
-https://github.com/JBW-byte/hyprland-waybar/blob/main/Screenshot_20250513_153002.png
+![Alt text](https://github.com/JBW-byte/hyprland-waybar/blob/main/Screenshot_20250513_153002.png "Optional title")
 
 waybar config and style for hyprland, default hyprland install, 
 
