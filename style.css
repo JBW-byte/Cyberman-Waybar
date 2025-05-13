@@ -52,7 +52,7 @@ border-radius: 5px;
 #memory,
 #cpu,
 #custom-updates,
-#wlr-taskbar,
+#taskbar,
 #custom-power,
 #custom-power_profile,
 #custom-weather,
@@ -86,7 +86,7 @@ margin-left: 10px;
 border-right: 0px;
 }
 
-#wlr-taskbar {
+#taskbar {
 color: #fab387;
 border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
