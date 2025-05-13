@@ -6,7 +6,7 @@
     "margin": 0,
     "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
         "modules-center": [],                                                                           //battery   //disk     // uptime      //updates        // systray
-    "modules-right": ["custom/updates", "pulseaudio", "cpu", "memory", "tray", "clock"],
+    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "tray", "clock"],
 
 
     "hyprland/workspaces": {
