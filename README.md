@@ -15,4 +15,4 @@ my .config files if needed https://github.com/JBW-byte/hyprland-.config/tree/mai
 
 
 
-![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/hyprland%20waybar.png "Preview")
+![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/screenshot/hyprland%20waybar.png "Preview")
