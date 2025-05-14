@@ -17,6 +17,6 @@ sudo pacman -Syu ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbo
 my .config dotfiles if needed https://github.com/JBW-byte/hyprland-.config/tree/main/.config
 
 
-![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/screenshot/hyprland%20waybar.png "Preview")
+![Alt text](https://github.com/JBW-byte/Screenshots/blob/main/hyprland%20waybar.png "Preview")
 
 you might need oh-my-posh for the terminal styling.
