@@ -1,4 +1,4 @@
-/* colour guide */
+/* colour guide for custom styling*/
 /* Tokyo Night */
 @define-color background #1a1b26;
 @define-color background-light #24283b;
@@ -55,7 +55,6 @@
 @define-color cyan #689d6a;
 @define-color white #ebdbb2;
 @define-color orange #d65d0e;
-
 
 
 * {
@@ -138,7 +137,6 @@ border: 1px solid #181825;
 }
 
 #custom-power {
-font-size: 20px;
 color: #f7768e;
 border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
@@ -160,11 +158,10 @@ margin-top: 10px;
 }
 
 #custom-rofi_button {
-font-size: 20px;
 color: #fab387;
-border-radius: 10px 0px 0px 10px;
 margin-left: 10px;
-border-right: 0px;
+border-radius: 10px 10px 10px 10px;
+padding-right: 15px;
 }
 
 #custom-updates {
@@ -238,9 +235,8 @@ border-right: 0px;
 
 #network {
 color: #f9e2af;
-border-radius: 10px 0px 0px 10px;
-border-left: 0px;
-border-right: 0px;
+border-radius: 0px 0px 0px 0px;
+padding-right:  3px;
 }
 
 #bluetooth {
@@ -266,18 +262,13 @@ margin-right: 10px;
 
 #battery {
 color: #a6e3a1;
-border-radius: 0 10px 10px 0;
-margin-right: 10px;
 border-left: 0px;
 }
+
 #battery.warning {
 color: #FFA500;
 }
+
 #battery.critical {
 color: #F00;
-}
-#custom-moon {
-border-radius: 0px 10px 10px 0px;
-border-right: 0px;
-margin-left: 0px;
 }

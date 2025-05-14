@@ -4,9 +4,10 @@
     "height": 32,
     "spacing": 2,
     "margin": 0,
+
     "modules-left": ["custom/rofi_button", "hyprland/workspaces", "wlr/taskbar"],
-        "modules-center": ["custom/playerctl"],                                                                           //battery   //disk     // uptime      //updates        // systray
-    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "tray", "clock", "custom/power"],
+    "modules-center": ["custom/playerctl"],
+    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "network", "battery", "tray", "clock", "custom/power"],
 
     "hyprland/workspaces": {
             "all-outputs": true,
@@ -19,13 +20,12 @@
 		"4": "",
 		//"active": "",
 		//"default": ""
-	},
-
-            "persistent-workspaces": {
+        },
+        "persistent-workspaces": {
 		"*": [ 1,2,3,4 ], // 1-4 on every monitor
 		//"HDMI-A-1": [ 1 ] // but only workspace 1 on HDMI-A-1
-	}
-        },
+        }
+    },
 
     "custom/rofi_button": {
         "format": "",
@@ -143,11 +143,11 @@
 
     "network": {
         "format-wifi": "󰖩 {essid} ({signalStrength}%)",
-        "format-ethernet": "󰈀 {ifname}",
-        "format-linked": "󰈀 {ifname} (No IP)",
+        "format-ethernet": "󰈀 ",
+        "format-linked": "󰈀  (No IP)",
         "format-disconnected": "󰖪 Disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "tooltip-format": "{ifname}: {ipaddr}",
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        // "tooltip-format": "{ifname}: {ipaddr}",
         "on-click": "alacritty -e nmtui"
     },
 
