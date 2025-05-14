@@ -14,7 +14,7 @@ sudo pacman -Syu ttf-cascadia-code-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mo
 
 
 
-my .config files if needed https://github.com/JBW-byte/hyprland-.config/tree/main/.config
+my .config dotfiles if needed https://github.com/JBW-byte/hyprland-.config/tree/main/.config
 
 
 ![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/screenshot/hyprland%20waybar.png "Preview")
