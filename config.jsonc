@@ -65,7 +65,7 @@
 		"format-icons": {
 			"default": "",
 			"performance": "",
-			"balanced": "",
+			"balanced": "",
 			"power-saver": ""
 		}
 	},
@@ -74,7 +74,7 @@
         "format": "󰚰 {}",
         "exec": "checkupdates | wc -l",
         "interval": 3600,
-        "on-click": "kitty -e sudo pacman -Syu",
+        "on-click": "alacritty -e sudo pacman -Syu",
         "signal": 8
     },
 
