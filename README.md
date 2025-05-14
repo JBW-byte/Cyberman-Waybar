@@ -18,3 +18,5 @@ my .config dotfiles if needed https://github.com/JBW-byte/hyprland-.config/tree/
 
 
 ![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/screenshot/hyprland%20waybar.png "Preview")
+
+you might need oh-my-posh for the terminal styling.
