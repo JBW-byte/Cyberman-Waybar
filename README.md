@@ -2,10 +2,10 @@
 
 waybar config and style for hyprland, Rofi and alacritty needed, or rename all instances of alacritty to your terminal of choice in config.jsonc
 
-place the config.jsonc and style.css in: .config/waybar/    make the folder if one does not exist in .config
+place the config.jsonc and style.css in: .config/waybar/      make the folder if one does not exist in .config
 
 
-includes custom Rofi button, Update Button, taskbar and power button(logout etc). workspaces show in hyprland
+includes custom Rofi button, Update Button, taskbar and power button(logout etc).
 
 
 
