@@ -10,7 +10,7 @@ includes custom Rofi button, Update Button, taskbar and power button(logout etc)
 
 
 Dependances:
-sudo pacman -Syu ttf-cascadia-code-nerd ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome wlogout hyprpolkitagent rofi-wayland --needed
+sudo pacman -Syu ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome wlogout hyprpolkitagent rofi-wayland --needed
 
 
 
