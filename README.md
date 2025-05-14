@@ -1,4 +1,4 @@
-![Alt text](https://github.com/JBW-byte/hyprland-waybar-config/blob/main/screenshot/waybar.png "Preview")
+![Alt text](https://github.com/JBW-byte/Screenshots/blob/main/waybar.png "Preview")
 
 waybar config and style for hyprland, Rofi and alacritty needed, or rename all instances of alacritty to your terminal of choice in config.jsonc
 
