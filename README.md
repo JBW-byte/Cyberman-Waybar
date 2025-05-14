@@ -1,11 +1,11 @@
 ![Alt text](https://github.com/JBW-byte/Screenshots/blob/main/waybar_v2.png "Preview")
 
-waybar config and style for hyprland, Rofi and alacritty needed, or rename all instances of alacritty to your terminal of choice in config.jsonc
+waybar config and style for hyprland, alacritty terminal, or rename all instances of alacritty to your terminal of choice in config.jsonc
 
 place the config.jsonc and style.css in: .config/waybar/      make the folder if one does not exist in .config
 
 
-includes custom Rofi button, Update Button, taskbar and power button(logout etc).
+includes custom Rofi button, Update Button, power setting, taskbar and power button(wlogout config maybe required in my dots).
 
 
 
