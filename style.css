@@ -112,7 +112,7 @@ border-radius: 5px;
 #cpu,
 #custom-updates,
 #custom-power,
-#custom-power_profile,
+#power-profiles-daemon,
 #custom-weather,
 #custom-moon,
 #custom-wallpaper,
@@ -214,7 +214,7 @@ padding-right: 0px;
 padding-left: 5px;
 }
 
-#custom-power_profile {
+#power-profiles-daemon {
 color: #a6e3a1;
 border-left: 0px;
 border-right: 0px;

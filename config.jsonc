@@ -1,5 +1,5 @@
 {
-    "layer": "top",
+    // "layer": "top",
     "position": "top",
     "height": 32,
     "spacing": 2,
@@ -7,7 +7,7 @@
 
     "modules-left": ["custom/rofi_button", "hyprland/workspaces", "wlr/taskbar"],
     "modules-center": ["custom/playerctl"],
-    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "network", "battery", "tray", "clock", "custom/power"],
+    "modules-right": ["custom/updates", "cpu", "memory", "pulseaudio", "network", "battery", "power-profiles-daemon", "tray", "clock", "custom/power"],
 
     "hyprland/workspaces": {
             "all-outputs": true,
@@ -57,6 +57,18 @@
         "format": "{}",
         "tooltip": true
     },
+
+    "power-profiles-daemon": {
+		"format": "{icon}",
+		"tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+		"tooltip": true,
+		"format-icons": {
+			"default": "",
+			"performance": "",
+			"balanced": "",
+			"power-saver": ""
+		}
+	},
 
     "custom/updates": {
         "format": "󰚰 {}",
