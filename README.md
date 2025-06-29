@@ -10,7 +10,7 @@ includes custom Rofi button, Update Button, power setting, taskbar and power but
 
 
 Dependances:
-sudo pacman -Syu ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome wlogout hyprpolkitagent rofi-wayland --needed
+sudo pacman -Syu ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-fira-code ttf-font-awesome waybar wlogout hyprpolkitagent rofi-wayland starship --needed
 
 
 
@@ -19,4 +19,4 @@ my .config dotfiles if needed https://github.com/JBW-byte/hyprland-.config/tree/
 
 ![Alt text](https://github.com/JBW-byte/Screenshots/blob/main/hyprland%20waybar.png "Preview")
 
-you might need oh-my-posh for the terminal styling.
+Starship for terminal styling.
